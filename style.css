@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+
+
+
+
+
+@font-face {
+    font-family: IG;
+    src: url(lemon_milk/LEMONMILK-LightItalic.otf);
+
+}
+
+@font-face {
+    font-family: FM;
+    src: url(made_tommy/MADE\ TOMMY\ Black_PERSONAL\ USE.otf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    /* border: red solid 1px; */
+    
+}
+
+.text-shadow-drop-bottom {
+    font-size: 4em;
+    text-align: center;
+    -webkit-animation: text-shadow-drop-bottom 1s both;
+    animation: text-shadow-drop-bottom 1s both;
+}
+
+
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+   
+padding-bottom: 40px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: IG;
+
+}
+
+h2 {
+    text-align: center;
+    font-family: IG;
+    padding: 5%;
+
+    
+}
+
+.imgs{
+
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.imgs img{
+    width: 200px;
+    height: 200px;
+    animation: pulse 0.6s alternate infinite;
+    
+}
+
+@keyframes pulse {
+    from{
+       scale: 1.0
+    }
+
+    to{
+    scale: 1.1;
+    }
+}
+
+
+
+p {
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 50px;
+    font-family: FM;
+    font-size: 150%;
+
+}
+
+img {
+
+    height: 50%;
+    width: 50%;
+
+
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+.gifi {
+    margin-left: 25%;
+    width: 50%;
+}
+
+iframe{
+    margin-left: 25%;
+    width: 50%;
+    
+}
+
+.btm{
+    background-color: rgb(255, 75, 75);
+    color: aliceblue;
+   margin-left: 47%;
+   padding: 1%;
+   margin-bottom: 2%;
+   
+
+}
+
+footer{
+    background-color: rgb(15, 15, 44);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    iframe{
+        width: 270px;
+        height: 140px;
+       margin: 16%;
+        
+    }
+    
+    .btm{
+        margin-bottom: 10%;
+        padding: 4%;
+        margin-left: 37%;
+        
+        
+        
+    }
+
+footer{
+    margin-bottom: 2%;
+}
+
+
+}
